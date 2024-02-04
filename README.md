@@ -1,6 +1,8 @@
 # Obsidian Ana 3
 ## Was ist das?
-Alle meine Notizen zu Analysis 3 in einem Obsidian-Vault, das heißt jede klausurrelevante Vorlesung, entweder mitgeschrieben oder mit Ortegas Skript ergänzt.
+Alle meine Notizen zu Analysis 3 in einem Obsidian-Vault, das heißt jede klausurrelevante Vorlesung, entweder mitgeschrieben oder mit Ortegas Skript ergänzt.  \
+<img width="450" alt="image" src="https://github.com/wettengit/Obsidian-Ana-3/assets/150146437/f109ddb3-5dcb-409e-af41-99f6196ad8b6">
+
 
 ## Wie benutze ich das?
 1. Die neueste Version von Obsidian installieren (obsidian.md)
