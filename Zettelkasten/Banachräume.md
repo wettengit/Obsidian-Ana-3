@@ -33,9 +33,9 @@ modul: [[P3.3 Analysis III]]
 >5. Jede lineare Abbildung von $U\rightarrow\mathbb{K}$ ist stetig.
 
 >[!def] Definition: $\mathcal{L}^{p}$-Räume und $L^{p}$-Räume
->Sei $I\subset\mathbb{R}$ Intervall. Für $p\in[1,\infty)$ definieren wir $$\mathcal{L}^{p}(I):={f:I\rightarrow\mathbb{R}:\int_{I}|f(x)|^{p}\dd x\lt\infty}$$
+>Sei $I\subset\mathbb{R}$ Intervall. Für $p\in[1,\infty)$ definieren wir $$\mathcal{L}^{p}(I):=\left\{f:I\rightarrow\mathbb{R}:\int_{I}|f(x)|^{p}\dd x\lt\infty\right\}$$
 >und $$\left\lVert\cdot\right\rVert^{p}:=\left(\int_{I}|\cdot|^{p}\right)^{\frac{1}{p}}$$
->$\left\lVert\cdot\right\rVert_{p}$ ist eine Pseudonorm auf $\mathcal{L}^{p}(I)$. Wir setzen $$\mathcal{N}(I):={f\in\mathcal{L}^{p}(I):\mu(\text{supp }f)=0}$$
+>$\left\lVert\cdot\right\rVert_{p}$ ist eine Pseudonorm auf $\mathcal{L}^{p}(I)$. Wir setzen $$\mathcal{N}(I):=\{f\in\mathcal{L}^{p}(I):\mu(\text{supp }f)=0\}$$
 >und definieren $$L^{p}(I):=\mathcal{L}^{p}(I)/\mathcal{N}(I).$$
 >Funktionen, die fast überall gleich sind, haben den gleichen Repräsentanten in $L^{p}(I)$. $\left\lVert\cdot\right\rVert_{p}$ ist eine Norm auf $L^{p}(I)$.
 
@@ -43,5 +43,4 @@ modul: [[P3.3 Analysis III]]
 >Sei $p\in[1,\infty)$. Dann ist $(L^{p}(I),\left\lVert\cdot\right\rVert_{p})$ ein Banachraum.
 
 >[!thm] Theorem 4.59: Hölder-Ungleichung
->Seien $p,q\in\mathbb{R}$ **Hölder-konjugiert**, d.h. $\frac{1}{p}+\frac{1}{q}=1$. Man schreibt $q=p^{*}$. Sei $f\in L_{p}(I)$, $g\in L_{q}(I)$. Dann gilt $f\cdot g\in L^{1}(I)$ und $$\left\lVert f\cdot g\right\rVert_{1}=\left\lVert f\right\rVert_{p}\left\lVert g\right\rVert_{q}$$
-
+>Seien $p,q\in\mathbb{R}$ **Hölder-konjugiert**, d.h. $\frac{1}{p}+\frac{1}{q}=1$. Man schreibt $q=p^{*}$. Sei $f\in L_{p}(I)$, $g\in L_{q}(I)$. Dann gilt $f\cdot g\in L^{1}(I)$ und $$\left\lVert f\cdot g\right\rVert_{1}\le\left\lVert f\right\rVert_{p}\left\lVert g\right\rVert_{q}$$
